@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+<body id="cuerpo">
+
+    <div class="panel-lateral">
+
+        <a href="#" class="close" ="panelLateral()">X</a>
+
+        <h2>PANEL LATERAL</h2>
+
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </ul>
+
+    </div>
+
+    <section>
+        <div class="left">
+            <h2>Interacciones</h2>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rectangulo()">RECTANGULO</button>
+            <button onclick="rombo()">ROMBO</button>
+            <button onclick="imagen()">IMAGEN</button><br>
+            <button onclick="gif()">GIF</button>
+            <button onclick="triangulo()">TRIANGULO</button>
+            <button onclick="hoja()">HOJA</button>
+            <button onclick="pacman()">PACMAN</button><br>
+            <button onclick="huevo()">HUEVO</button>
+            <button onclick="trapecio()">TRAPECIO</button>
+            <button onclick="moveTop()">Move Top</button><br>
+            <button onclick="moveLeft()">Move Left</button>
+            <button onclick="moveRight()">Move Right</button>
+            <button onclick="moveDown()">Move Bottom</button>
+            <button onclick="panelLateral()">PANEL LATERAL</button>
+            <button onclick="imagenFondo()">IMAGEN DE FONDO</button>
+            <button onclick="colorFondo()">COLOR DE FONDO</button>
+          
+        </div>
+
+        <div class="right">
+            <h2 id="figura-show">Figura</h2>
+            <div id="figura"></div>
+        </div>
+
+
+    </section>
+    <script src="js/Main.js"></script>
+</body>
+</html>
