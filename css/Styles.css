@@ -299,11 +299,3 @@ button:hover{
 #figura.propuesta{
     rotate: 360deg;
 }
-
-#cuerpo.imagenfondo {
-  background: url(../img/background3.jpg);
-}
-
-#cuerpo.colorfondo {
-  background: grey;
-}
