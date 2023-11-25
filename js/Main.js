@@ -1,7 +1,7 @@
 var figura = document.getElementById("figura");
 
 
-function circulo() {
+function circulo() { 
     figura.classList.toggle("circulo");
     var figuraText = document.getElementById("figura-show");
     figuraText.innerText = "circulo";
@@ -105,4 +105,10 @@ function imagenFondo() {
 
 function colorFondo() {
     cuerpo.classList.toggle("colorfondo");
+}
+
+function propuestaFlip(){
+    figura.classList.toggle("propuesta")
+    var figuraText = document.getElementById("figura-show");
+    figuraText.innerText = "Flip";
 }
