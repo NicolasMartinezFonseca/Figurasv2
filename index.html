@@ -6,11 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/Styles.css">
 </head>
-<body id="cuerpo">
+<body id="cuerpo" >
 
+<!-- Panel Superior -->
+    <div class="panel-superior">
+
+        <a href="#" class="close2" onclick="panelSuperior()">X</a>
+
+        <h2>PANEL SUPERIOR</h2>
+
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </ul>
+
+    </div>
+
+<!-- Panel Lateral -->
     <div class="panel-lateral">
 
-        <a href="#" class="close" ="panelLateral()">X</a>
+        <a href="#" class="close" onclick="panelLateral()">X</a>
 
         <h2>PANEL LATERAL</h2>
 
@@ -41,10 +59,14 @@
             <button onclick="moveLeft()">Move Left</button>
             <button onclick="moveRight()">Move Right</button>
             <button onclick="moveDown()">Move Bottom</button>
+            <button onclick="panelSuperior()">PANEL SUPERIOR</button>
             <button onclick="panelLateral()">PANEL LATERAL</button>
             <button onclick="imagenFondo()">IMAGEN DE FONDO</button>
             <button onclick="colorFondo()">COLOR DE FONDO</button>
-          
+            <button onclick="propuestaFlip()">PROPUESTA</button>
+
+
+            
         </div>
 
         <div class="right">
